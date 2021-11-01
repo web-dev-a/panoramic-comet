@@ -38,7 +38,6 @@ search.addWidgets([
 </a> <span style="text-align: right"><a target="_blank" href="https://www.discogs.com/search/?sort=year%2Cdesc&q={{artist}}&type=release" style="text-decoration:none"><i class="material-icons"> library_music</i></a>
 </span>
 </p>
-
 </div>
 `,
 
