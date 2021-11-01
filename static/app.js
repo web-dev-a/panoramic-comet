@@ -10,6 +10,12 @@ const search = instantsearch({
   routing: true,
   exactOnSingleWordQuery: 'word',
   queryType: 'prefixNone',
+  searchFunction: function(helper) {
+    if (helper.state.query === '') {
+      return;
+    }
+        helper.search();
+  }
 });
 
 search.addWidgets([
