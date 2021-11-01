@@ -9,6 +9,7 @@ const search = instantsearch({
   searchClient,
   routing: true,
   exactOnSingleWordQuery: 'word',
+  queryType: 'prefixNone',
 });
 
 search.addWidgets([
