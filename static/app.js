@@ -26,6 +26,18 @@ search.addWidgets([
   })
 ]);
 
+search.addWidget(
+  instantsearch.widgets.refinementList({
+    container: '#key',
+    attributeName: 'key',
+    operator: 'or',
+    limit: 10,
+    templates: {
+      header: 'key'
+    }
+  })
+);
+
 search.addWidgets([
   instantsearch.widgets.hits({
     container: '#hits',
