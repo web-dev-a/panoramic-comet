@@ -31,7 +31,7 @@ search.addWidgets([
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    showSubmit: false,
+    showSubmit: ture,
     autofocus: true,
     searchOnEnterKeyPressOnly: true,
   })
