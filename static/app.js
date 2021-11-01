@@ -28,7 +28,7 @@ search.addWidgets([
 
 search.addWidget(
   instantsearch.widgets.refinementList({
-    container: '#key',
+    container: '#search-box',
     attributeName: 'key',
     operator: 'or',
     limit: 10,
