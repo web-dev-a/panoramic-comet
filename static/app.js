@@ -1,7 +1,7 @@
 // Replace with your own values
 const searchClient = algoliasearch(
   'G7MVO6PS34',
-  '62a336bc347a141c6182094f05edfcbe' // search only API key, not admin API key
+  '1e0e2ec12c7e3c36b59ce40e7ea62db2' // search only API key, not admin API key
 );
 
 const search = instantsearch({
