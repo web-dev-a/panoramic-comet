@@ -19,7 +19,7 @@ const search = instantsearch({
   },
 
 searchFunction: function(helper) {              
-     if (helper.state.query.length < 2) {                         
+     if (helper.state.query.length < 6) {                         
         return; // no search if less than 2 character               
     }               
     helper.search( );     
