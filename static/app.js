@@ -10,7 +10,7 @@ const search = instantsearch({
   routing: true,
 });
 
-searchOnEnterKeyPressOnly: true,
+
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#q',
