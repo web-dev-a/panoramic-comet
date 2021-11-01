@@ -68,7 +68,17 @@
         
         	{{ partial "header.html" . }}
         
-            
+              <p class="subscribe-text"></p>
+  <div class="inner-sm">
+  <div class="form-group">
+    <div id="search-box"></div>
+  </div>
+  </div>
+  <main>
+    <div class="outer">
+      <div id="hits"></div>
+    </div>
+  </main>
         	<main id="content" class="site-content">
         		{{ block "content" . }}{{ end }}
         	</main>
