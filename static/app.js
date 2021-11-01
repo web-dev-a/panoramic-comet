@@ -33,9 +33,7 @@ search.addWidgets([
       item: 
       `
 <div style="text-align: center;">
-<p><a href="{{url}}">
 {{#helpers.highlight}}{ "attribute": "status" }{{/helpers.highlight}}
-
 </p>
 </div>
 `,
