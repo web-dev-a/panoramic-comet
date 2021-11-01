@@ -21,6 +21,7 @@ search.addWidget(
     loadingIndicator: false
   })
 );
+
 search.addWidgets([
   instantsearch.widgets.configure({
     hitsPerPage: 1000,
