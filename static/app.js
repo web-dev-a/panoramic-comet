@@ -9,7 +9,7 @@ const search = instantsearch({
   searchClient,
   routing: true,
   exactOnSingleWordQuery: 'word',
-  queryType: 'prefixNone',
+  setQueryType: 'prefixNone',
   searchFunction: function(helper) {
     if (helper.state.query === '') {
       return;
