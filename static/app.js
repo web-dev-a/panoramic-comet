@@ -21,7 +21,7 @@ search.addWidgets([
     container: '#search-box',
     showSubmit: true,
     autofocus: true,
-    searchOnEnterKeyPressOnly: true,
+    searchAsYouType: false,
   })
 ]);
 
