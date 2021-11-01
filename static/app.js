@@ -8,7 +8,7 @@ const search = instantsearch({
   indexName: 'CD',
   searchClient,
   routing: true,
-  exactOnSingleWordQuery:
+  exactOnSingleWordQuery: word,
 });
 
 search.addWidgets([
