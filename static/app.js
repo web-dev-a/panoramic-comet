@@ -33,6 +33,7 @@ search.addWidgets([
     container: '#search-box',
     showSubmit: false,
     autofocus: true,
+    searchOnEnterKeyPressOnly: true,
   })
 ]);
 
