@@ -14,12 +14,16 @@ const search = instantsearch({
     if (helper.state.query === '') {
       return;
     }
-        helper.search();
-         if (helper.state.query.length < 3) {                         
-        return; // no search if less than 2 character               
-    }   
+        helper.search();   
     
-  }
+  },
+
+searchFunction: function(helper) {              
+     if (helper.state.query.length < 2) {                         
+        return; // no search if less than 2 character               
+    }               
+    helper.search( );     
+}
 });
 
 search.addWidgets([
