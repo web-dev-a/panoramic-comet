@@ -15,6 +15,10 @@ const search = instantsearch({
       return;
     }
         helper.search();
+         if (helper.state.query.length < 3) {                         
+        return; // no search if less than 2 character               
+    }   
+    
   }
 });
 
