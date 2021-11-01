@@ -2,7 +2,7 @@
     "title": "Stackbit Event Theme",
     "layout_type": "full-width",
     "style": "bold",
-    "palette": "blue",
+    "palette": "gray",
     "mode": "light",
     "base_font": "sans-serif",
     "header": {
