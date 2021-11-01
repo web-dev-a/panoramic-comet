@@ -7,6 +7,7 @@ const searchClient = algoliasearch(
 const search = instantsearch({
   indexName: 'CD',
   searchClient,
+  searchOnEnterKeyPressOnly
   routing: true,
 });
 
