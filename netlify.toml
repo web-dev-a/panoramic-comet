@@ -4,3 +4,6 @@ command = "hugo"
 
   [build.environment]
   HUGO_VERSION = "0.80.0"
+
+  [[plugins]]
+  package = "netlify-plugin-algolia-index"
