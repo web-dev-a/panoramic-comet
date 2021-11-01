@@ -5,7 +5,7 @@ const searchClient = algoliasearch(
 );
 
 const search = instantsearch({
-  indexName: 'CD',
+  indexName: 'check',
   searchClient,
   routing: true,
   exactOnSingleWordQuery: 'word',
