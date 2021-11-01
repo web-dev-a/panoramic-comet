@@ -1,6 +1,6 @@
 // Replace with your own values
 const searchClient = algoliasearch(
-  'XNSMX45307',
+  'G7MVO6PS34',
   '62a336bc347a141c6182094f05edfcbe' // search only API key, not admin API key
 );
 
