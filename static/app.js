@@ -11,7 +11,16 @@ const search = instantsearch({
 });
 
 searchOnEnterKeyPressOnly: true,
-
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#q',
+    placeholder: 'Search for products',
+    autofocus: false,
+    poweredBy: true,
+    reset: true,
+    loadingIndicator: false
+  })
+);
 search.addWidgets([
   instantsearch.widgets.configure({
     hitsPerPage: 1000,
