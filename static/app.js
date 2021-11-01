@@ -9,7 +9,6 @@ const search = instantsearch({
   searchClient,
   routing: true,
   exactOnSingleWordQuery: 'word',
-  setQueryType: 'prefixNone',
   searchFunction: function(helper) {
     if (helper.state.query === '') {
       return;
@@ -18,24 +17,24 @@ const search = instantsearch({
     
   },
 
-searchFunction: function(helper) {              
+  searchFunction: function(helper) {              
      if (helper.state.query.length < 6) {                         
         return; // no search if less than 2 character               
     }               
-    helper.search( );     
+       helper.search( );     
 }
 });
 
 search.addWidgets([
   instantsearch.widgets.configure({
-    hitsPerPage: 1000,
+    hitsPerPage: 1,
   })
 ]);
 
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    showSubmit: true,
+    showSubmit: false,
     autofocus: true,
     searchAsYouType: false,
   })
